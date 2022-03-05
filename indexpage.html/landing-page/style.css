@@ -1,0 +1,123 @@
+.nav-bar-div  {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header-div {
+  background-color: #FFF0ED;
+}
+.shop-title-div  {
+  display: flex;
+  align-content: flex-end;
+  flex-direction: row;
+  margin-left: 80px;
+  padding: 7px;
+}
+
+
+
+#Nav-bar-UL  {
+
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+#list-item-tag  {
+margin-right: 40px;
+text-decoration: none;
+font-family: sans-serif;
+font-style:normal;
+font-weight: normal;
+font-size: large;
+color: #393939;
+
+}
+
+
+
+
+.menu-div {
+background-image:url('backgroundbanner.png');
+background-repeat: no-repeat;
+background-size:cover;
+height: 600px;
+width: 100;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+font-style: italic;
+font-weight:normal;
+}
+
+
+
+
+#menu-title-div {
+  background-color: brown;
+  text-align: center;
+  text-decoration:none;
+  width: 300px;
+  height: 140px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+color: white;
+}
+
+
+#menu-categories-ul {
+display: flex;
+justify-content: center;
+background-color: #393939;
+}
+
+#menu-categories-li{
+  margin-right: 60px;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+  font-style:normal;
+  font-weight:bold;
+  display: flex;
+  align-items:center;
+  color: white;
+  margin right: 60px;
+}
+
+
+.specific-goods-section {
+  margin border-bottom: 120px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF0ED;
+}
+.goods-description-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-header-title  {
+  font-family: sans-serif;
+  font-size:xx-large;
+}
+#product-header  {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: lighter;
+}
+p {
+  font-family: sans-serif;
+  font-size: normal;
+  font-style: oblique;
+  font-weight:lighter;
+}
+#prices-paragraph  {
+  color: #5BACC3;
+  font-size: large;
+  font-weight: bold;
+}
